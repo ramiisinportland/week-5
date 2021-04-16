@@ -18,6 +18,11 @@ test('Should test if venusYear is correct compaired to AgeCalculator', () => {
     expect(ageCalculator.venusYear).toEqual(42);
   })
 
+test('Should test if marsYear is correct compaired to AgeCalculator', () => {
+    let ageCalculator = new AgeCalculator(42);
+    expect(ageCalculator.marsYear).toEqual(40)
+  })
 
+  
 
 })
