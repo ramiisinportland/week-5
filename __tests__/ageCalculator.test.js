@@ -15,6 +15,6 @@ let earthAge;
   })
 
    test('Should test if mercuryYear age is correct', () => {
-    expect(mercuryYear).toEqual(13);
+    expect(mercuryYear).toEqual(ramiAge);
   })
 })
