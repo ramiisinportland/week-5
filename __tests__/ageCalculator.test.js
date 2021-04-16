@@ -9,7 +9,7 @@ describe('AgeCalculator', () => {
 
   test('Should test if mercuryYear is correct compaired to AgeCalculator', () => {
     let ageCalculator = new AgeCalculator(42);
-    expect(ageCalculator.mercuryYear).toEqual(40)
+    expect(ageCalculator.mercuryYear).toEqual(42);
   })
 
 
