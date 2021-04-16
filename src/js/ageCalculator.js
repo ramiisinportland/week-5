@@ -5,5 +5,6 @@ export default class AgeCalculator{
     this.mercuryYear = presentYear;
     this.venusYear = presentYear; 
     this.marsYear = presentYear;
+    this.jupiterYear = presentYear;
   }
 }
