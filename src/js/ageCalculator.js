@@ -4,9 +4,9 @@
 
 export default class ramiAge{
 
-  constructor( presentYear) {
+  constructor( presentYear, mercuryYear) {
     this.presentYear = presentYear;
-    // this.mercuryYear = presentYear;
+    this.mercuryYear = mercuryYear;
     // this.venusYear = presentYear; 
     // this.marsYear = presentYear;
     // this.jupiterYear = presentYear;
