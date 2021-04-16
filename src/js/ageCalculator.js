@@ -2,7 +2,7 @@
 
 
 
-export default class AgeCalculator{
+export default class ramiAge{
 
   constructor( presentYear) {
     this.presentYear = presentYear;

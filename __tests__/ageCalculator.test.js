@@ -8,11 +8,11 @@ import AgeCalculator from '../src/js/ageCalculator.js'
 
 describe('AgeCalculator', () => {
 let ramiAge;
-let ageCalculator;
+let earthAge;
 
 
-  test('Should creat a new class AgeCalculator', () => {
+  test('Should test if earth age is correct', () => {
     //let ageCalculator = new AgeCalculator(42);
-    expect(ageCalculator.presentYear).toEqual(ramiAge);
+    expect(earthAge).toEqual(4);
   })
 })
