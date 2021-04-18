@@ -16,5 +16,10 @@ test('It should calculate venusAge', () => {
   expect(ageCalculator.calcVenus()).toEqual(67.74193548387098);
 })
 
+test('It should calculate marsAge', () => {
+  let ageCalculator = new AgeCalculator(42);
+  expect(ageCalculator.calcMars()).toEqual(22);
+})
+
 });
 

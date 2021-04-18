@@ -14,4 +14,8 @@ calcVenus() {
   return venusAge;
 }
 
+calcMars() {
+  let marsAge = tis.age / 1.88;
+  return marsAge;
+}
 }
