@@ -6,12 +6,13 @@ describe('AgeCalculator', () => {
     expect(ageCalculator.age).toEqual(42);
   })
 
-  test('It should calculate mercuryAge', () => {
+ test('It should calculate mercuryAge', () => {
     let ageCalculator = new AgeCalculator(42);
-    expect(ageCalculator.calcMercury()).toEqual(170);
-
-
+    expect(ageCalculator.calcMercury()).toEqual(175);
   })
+
+
+
 
 });
 

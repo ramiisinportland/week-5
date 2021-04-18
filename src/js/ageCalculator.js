@@ -5,10 +5,8 @@ constructor(age) {
 
 //Function to calculate the age in Mercury
 calcMercury() {
-  let mercuryAge = this.age/ .42;
+  let mercuryAge = this.age / .24;
   return mercuryAge;
 }
 
-
-  
 }
