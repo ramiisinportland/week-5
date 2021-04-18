@@ -4,7 +4,7 @@ describe('AgeCalculator', () => {
 test('It should create an object of the class with age paramater', () => {
   let ageCalculator = new AgeCalculator(42, 80);
   expect(ageCalculator.age).toEqual(42);
-  expect(ageCalculator.lifeExpectancy).toEqual(42);
+  expect(ageCalculator.lifeExpectancy).toEqual(80);
   })
 
 test('It should calculate mercuryAge', () => {
