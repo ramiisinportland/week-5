@@ -9,4 +9,9 @@ calcMercury() {
   return mercuryAge;
 }
 
+calcVenus() {
+  let venusAge = this.age /.62;
+  return venusAge;
+}
+
 }

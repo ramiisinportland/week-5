@@ -11,7 +11,10 @@ describe('AgeCalculator', () => {
     expect(ageCalculator.calcMercury()).toEqual(175);
   })
 
-
+test('It should calculate venusAge', () => {
+  let ageCalculator = new AgeCalculator(42);
+  expect(ageCalculator.calcVenus()).toEqual(60);
+})
 
 
 });
