@@ -13,9 +13,8 @@ describe('AgeCalculator', () => {
 
 test('It should calculate venusAge', () => {
   let ageCalculator = new AgeCalculator(42);
-  expect(ageCalculator.calcVenus()).toEqual(60);
+  expect(ageCalculator.calcVenus()).toEqual(67.74193548387098);
 })
-
 
 });
 
