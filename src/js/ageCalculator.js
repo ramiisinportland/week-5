@@ -10,15 +10,19 @@ constructor(age, lifeExpectancy) {
     return mercuryExcpectancy;
   }
 
+  // Life expectancy Venus
  calcExcpectancyVenus () {
   let venusExcpectancy = this.lifeExpectancy / .62;
   return venusExcpectancy;
  }
 
+ // Life expectancy Mars
  calcExcpectancyMars () {
   let marsExcpectancy = this.lifeExpectancy / 1.88;
   return marsExcpectancy;
  }
+
+
 
 
 
