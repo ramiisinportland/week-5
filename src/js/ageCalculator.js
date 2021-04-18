@@ -1,11 +1,15 @@
 export default class AgeCalculator{
-constructor(age) {
+constructor(age, lifeExpectancy) {
     this.age = age;
+    this.lifeExpectancy = lifeExpectancy;
   }
 
 //Function to calculate the age in Mercury
 calcMercury() {
   let mercuryAge = this.age / .24;
+  // 1  mercury year = ----> 0.24 earth year
+  // x mercury year <------ 1 earth year
+  // X * .24 = 1 * 1
   return mercuryAge;
 }
 

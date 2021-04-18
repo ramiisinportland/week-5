@@ -1,12 +1,13 @@
 import AgeCalculator from '../src/js/ageCalculator.js'
 
 describe('AgeCalculator', () => {
-  test('It should create an object of the class with age paramater', () => {
-    let ageCalculator = new AgeCalculator(42);
-    expect(ageCalculator.age).toEqual(42);
+test('It should create an object of the class with age paramater', () => {
+  let ageCalculator = new AgeCalculator(42, 80);
+  expect(ageCalculator.age).toEqual(42);
+  expect(ageCalculator.lifeExpectancy).toEqual(42);
   })
 
- test('It should calculate mercuryAge', () => {
+test('It should calculate mercuryAge', () => {
     let ageCalculator = new AgeCalculator(42);
     expect(ageCalculator.calcMercury()).toEqual(175);
   })
@@ -26,4 +27,6 @@ test ('It should calculate jupiterAge', () => {
   expect(ageCalculator.calcJupiter()).toEqual(3.5413153456998314);
 })
 });
+
+
 
