@@ -1,20 +1,9 @@
 import AgeCalculator from '../src/js/ageCalculator.js'
 
-
-
-
-
-
-
 describe('AgeCalculator', () => {
-let ramiAge;
-let earthAge;
-
-    test('Should test if earth age is correct', () => {
-    expect(earthAge).toEqual(ramiAge);
+  test('It should create an object of the class with age paramater', () => {
+    let ageCalculator = new AgeCalculator(42);
+    expect(ageCalculator.age).toEqual(20);
   })
+});
 
-   test('Should test if mercuryYear age is correct', () => {
-    expect(mercuryYear).toEqual(ramiAge);
-  })
-})
