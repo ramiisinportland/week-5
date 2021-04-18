@@ -15,6 +15,11 @@ constructor(age, lifeExpectancy) {
   return venusExcpectancy;
  }
 
+ calcExcpectancyMars () {
+  let marsExcpectancy = this.lifeExpectancy / 1.88;
+  return marsExcpectancy;
+ }
+
 
 
 
