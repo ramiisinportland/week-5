@@ -23,6 +23,11 @@ constructor(age, lifeExpectancy) {
  }
 
 
+ // Life expectancy Jupiter
+  calcExcpectancyJupiter () {
+  let jupiterExcpectancy = this.jupiterExpectancy / 11.86;
+  return jupiterExcpectancy;
+ }
 
 
 

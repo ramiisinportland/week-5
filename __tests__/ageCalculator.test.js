@@ -4,8 +4,7 @@ describe('AgeCalculator', () => {
 test('It should create an object of the class with age paramater', () => {
   let ageCalculator = new AgeCalculator(42, 80);
   expect(ageCalculator.age).toEqual(42);
-  // lifeExpectancy
-  expect(ageCalculator.lifeExpectancy).toEqual(80);
+  expect(ageCalculator.lifeExpectancy).toEqual(80); // lifeExpectancy
   })
 
   test('It should calculate mercuryAge', () => {
@@ -28,9 +27,6 @@ test('It should create an object of the class with age paramater', () => {
     expect(ageCalculator.calcJupiter()).toEqual(3.5413153456998314);
   })
 });
-
-
-
 // lifeExpectancy Mercury
 test('It should calculate lifeExpectancy in mercury', () => {
   let ageExcpectancyMercury = new AgeCalculator(42, 80);
@@ -52,5 +48,8 @@ test('It should calculate lifeExpectancy in mars', () => {
 // lifeExpectancy Jupiter
 test('It should calculate lifeExpectancy in jupiter', () => {
   let ageExcpectancyJupiter = new AgeCalculator(42, 80);
-  expect(ageExcpectancyJupiter.calcExcpectancyJupiter()).toEqual(6.74);
+  expect(ageExcpectancyJupiter.calcExcpectancyJupiter()).toEqual(6.745362563237775);
 })
+
+
+
