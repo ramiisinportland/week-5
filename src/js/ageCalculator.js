@@ -25,14 +25,11 @@ constructor(age, lifeExpectancy) {
 
  // Life expectancy Jupiter
   calcExcpectancyJupiter () {
-  let jupiterExcpectancy = this.jupiterExpectancy / 11.86;
+  let jupiterExcpectancy = this.lifeExpectancy / 11.86;
   return jupiterExcpectancy;
  }
 
 
-
-
-  //==================
 
 //Function to calculate the age in Mercury
 calcMercury() {

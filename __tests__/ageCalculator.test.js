@@ -26,30 +26,30 @@ test('It should create an object of the class with age paramater', () => {
     let ageCalculator = new AgeCalculator (42);
     expect(ageCalculator.calcJupiter()).toEqual(3.5413153456998314);
   })
+  // lifeExpectancy Mercury
+  test('It should calculate lifeExpectancy in mercury', () => {
+    let ageExcpectancyMercury = new AgeCalculator(42, 80);
+    expect(ageExcpectancyMercury.calcExcpectancyMercury()).toEqual(333.33333333333337);
+  })
+  
+  // lifeExpectancy Venus
+  test('It should calculate lifeExpectancy in venus', () => {
+    let ageExcpectancyVenus = new AgeCalculator(42, 80);
+    expect(ageExcpectancyVenus.calcExcpectancyVenus()).toEqual(129.03225806451613);
+  })
+  
+  // lifeExpectancy Mars
+  test('It should calculate lifeExpectancy in mars', () => {
+    let ageExcpectancyMars = new AgeCalculator(42, 80);
+    expect(ageExcpectancyMars.calcExcpectancyMars()).toEqual(42.5531914893617);
+  })
+  
+  // lifeExpectancy Jupiter
+  test('It should calculat lifeExpectancy in jupiter', () => {
+    let ageExcpectancyJupiter = new AgeCalculator(42, 80);
+    expect(ageExcpectancyJupiter.calcExcpectancyJupiter()).toEqual(6.745362563237775);
+  })
 });
-// lifeExpectancy Mercury
-test('It should calculate lifeExpectancy in mercury', () => {
-  let ageExcpectancyMercury = new AgeCalculator(42, 80);
-  expect(ageExcpectancyMercury.calcExcpectancyMercury()).toEqual(333.33333333333337);
-})
-
-// lifeExpectancy Venus
-test('It should calculate lifeExpectancy in venus', () => {
-  let ageExcpectancyVenus = new AgeCalculator(42, 80);
-  expect(ageExcpectancyVenus.calcExcpectancyVenus()).toEqual(129.03225806451613);
-})
-
-// lifeExpectancy Mars
-test('It should calculate lifeExpectancy in mars', () => {
-  let ageExcpectancyMars = new AgeCalculator(42, 80);
-  expect(ageExcpectancyMars.calcExcpectancyMars()).toEqual(42.5531914893617);
-})
-
-// lifeExpectancy Jupiter
-test('It should calculat lifeExpectancy in jupiter', () => {
-  let ageExcpectancyJupiter = new AgeCalculator(42, 80);
-  expect(ageExcpectancyJupiter.calcExcpectancyJupiter()).toEqual(6.745362563237775);
-})
 
 
 
