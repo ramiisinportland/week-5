@@ -10,7 +10,11 @@ constructor(age, lifeExpectancy) {
     return mercuryExcpectancy;
   }
 
-  
+ calcExcpectancyVenus () {
+  let venusExcpectancy = this.lifeExpectancy / .62;
+  return venusExcpectancy;
+ }
+
 
 
 
