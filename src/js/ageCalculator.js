@@ -15,7 +15,7 @@ calcVenus() {
 }
 
 calcMars() {
-  let marsAge = tis.age / 1.88;
+  let marsAge = this.age / 1.88;
   return marsAge;
 }
 }
