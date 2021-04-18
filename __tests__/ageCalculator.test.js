@@ -14,7 +14,7 @@ test('It should calculate mercuryAge', () => {
 
   test('It should calculate lifeExpectancy in mercury', () => {
     let ageExcpectancyMercury = new AgeCalculator(42, 80);
-    expect(ageExcpectancyMercury.calcExcpectancyMercury()).toEqual(175);
+    expect(ageExcpectancyMercury.calcExcpectancyMercury()).toEqual(333.33333333333337);
   })
 
 test('It should calculate venusAge', () => {
