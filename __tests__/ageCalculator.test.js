@@ -12,10 +12,22 @@ test('It should calculate mercuryAge', () => {
     expect(ageCalculator.calcMercury()).toEqual(175);
   })
 
+
+
+// lifeExpectancy Mercury
   test('It should calculate lifeExpectancy in mercury', () => {
     let ageExcpectancyMercury = new AgeCalculator(42, 80);
     expect(ageExcpectancyMercury.calcExcpectancyMercury()).toEqual(333.33333333333337);
   })
+
+  test('It should calculate lifeExpectancy in venus', () => {
+    let ageExcpectancyVenus = new AgeCalculator(42, 80);
+    expect(ageExcpectancyVenus.ageExcpectancyVenus()).toEqual(129);
+  })
+
+
+
+
 
 test('It should calculate venusAge', () => {
   let ageCalculator = new AgeCalculator(42);

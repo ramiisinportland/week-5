@@ -4,10 +4,17 @@ constructor(age, lifeExpectancy) {
     this.lifeExpectancy = lifeExpectancy;
   }
 
+  // Life expectancy Mercury
   calcExcpectancyMercury() {
     let mercuryExcpectancy = this.lifeExpectancy /.24;
     return mercuryExcpectancy;
   }
+
+  
+
+
+
+  //==================
 
 //Function to calculate the age in Mercury
 calcMercury() {
