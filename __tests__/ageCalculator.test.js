@@ -46,7 +46,7 @@ test('It should calculate lifeExpectancy in mars', () => {
 })
 
 // lifeExpectancy Jupiter
-test('It should calculate lifeExpectancy in jupiter', () => {
+test('It should calculat lifeExpectancy in jupiter', () => {
   let ageExcpectancyJupiter = new AgeCalculator(42, 80);
   expect(ageExcpectancyJupiter.calcExcpectancyJupiter()).toEqual(6.745362563237775);
 })
