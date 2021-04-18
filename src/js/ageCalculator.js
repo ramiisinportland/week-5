@@ -4,6 +4,11 @@ constructor(age, lifeExpectancy) {
     this.lifeExpectancy = lifeExpectancy;
   }
 
+  calcExcpectancyMercury() {
+    let mercuryExcpectancy = this.lifeExpectancy /.24;
+    return mercuryExcpectancy;
+  }
+
 //Function to calculate the age in Mercury
 calcMercury() {
   let mercuryAge = this.age / .24;
