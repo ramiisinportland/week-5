@@ -18,4 +18,11 @@ calcMars() {
   let marsAge = this.age / 1.88;
   return marsAge;
 }
+
+calcJupiter() {
+  let jupiterAge = this.age/ 11.86;
+  return jupiterAge;
+}
+
+
 }

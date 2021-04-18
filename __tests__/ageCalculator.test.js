@@ -23,7 +23,7 @@ test('It should calculate marsAge', () => {
 
 test ('It should calculate jupiterAge', () => {
   let ageCalculator = new AgeCalculator (42);
-  expext(ageCalculator.calcJupiter()).toEqual(3.54);
+  expect(ageCalculator.calcJupiter()).toEqual(3.5413153456998314);
 })
 });
 
