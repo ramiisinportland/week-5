@@ -18,12 +18,22 @@
 
 _This application determines a user's age based on a planet's solar years and calculate the user's life expectancy based on Mercury, Venus, Mars and Jupiter years ._
 
-## Setup/Installation Requirements
+## Setup and Use
 
-* _Clone_
-* _Download wepack_
-* _Load on desktop_
-* _Open in Chrome_
+### Prerequisites
+* [Node](https://nodejs.org/en/)
+* A text editor like [VS Code](https://code.visualstudio.com/)
+
+### Installation
+1. Clone the repository: `$ git clone https://github.com/ramiisinportland/week-5.git`
+2. Navigate to the `week-5/` directory on your computer
+3. Open with your preferred text editor to view the code base
+4. To start a development server and view the project in the browser:
+    * Navigate to `week-5/` in your command line
+    * Run the command `npm install` to install dependencies
+    * Optionally, run the commmand `npm run build` to make a bundle of the files
+    * Finally, run the command `npm run start` to start a development server
+5. To run tests, navigate to `my-project/` in your terminal and run the command `npm run test`
 
 
 ## Known Bugs
